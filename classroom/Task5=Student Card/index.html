@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Profile Card</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #efefef;
+    font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  }
+
+  .card {
+    background: #ffffff;
+    width: 380px;
+    padding: 40px 30px 35px;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    text-align: center;
+  }
+
+  .avatar {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background: #d6d6d6;
+    margin: 0 auto 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #7a7a7a;
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .name {
+    font-size: 26px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 0 0 8px;
+  }
+
+  .branch {
+    font-size: 17px;
+    font-weight: 700;
+    color: #333333;
+    margin: 0 0 6px;
+  }
+
+  .college {
+    font-size: 15px;
+    color: #8a8a8a;
+    margin: 0 0 22px;
+  }
+
+  .bio {
+    font-size: 15px;
+    color: #6b5d3f;
+    line-height: 1.6;
+    margin: 0 0 28px;
+  }
+
+  .skills-title {
+    font-size: 17px;
+    font-weight: 700;
+    color: #333333;
+    margin: 0 0 14px;
+  }
+
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 32px;
+  }
+
+  .skill {
+    background: #dbe7ff;
+    color: #2b57e8;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+
+  .contact-btn {
+    background: #2b4fe0;
+    color: #ffffff;
+    border: none;
+    padding: 13px 30px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .contact-btn:hover {
+    background: #2440c2;
+  }
+</style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="avatar">Student</div>
+    <h1 class="name">Rahul Sharma</h1>
+    <p class="branch">Computer Science Engineering</p>
+    <p class="college">ABC Institute of Technology</p>
+    <p class="bio">I am a passionate Computer Science student interested in Web Development, Java, and problem solving.</p>
+
+    <p class="skills-title">Skills</p>
+    <div class="skills">
+      <span class="skill">HTML</span>
+      <span class="skill">CSS</span>
+      <span class="skill">Java</span>
+      <span class="skill">Problem Solving</span>
+    </div>
+
+    <button class="contact-btn">Contact Me</button>
+  </div>
+
+</body>
+</html>
