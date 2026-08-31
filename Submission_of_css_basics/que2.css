@@ -1,0 +1,63 @@
+/* Header */
+header {
+    background-color: #172554;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+/* Navigation */
+nav {
+    padding: 15px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+nav a {
+    margin: 15px;
+}
+
+/* Main sections: full-width background */
+section {
+    width: 100%;
+    padding: 30px;
+    margin: 10px 0;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+/* Linear gradient in first section */
+#about {
+    background: linear-gradient(to right, #dbeafe, #bfdbfe);
+}
+
+/* Radial gradient in second section */
+#places {
+    background: radial-gradient(circle, #fef3c7, #fde68a);
+}
+
+/* Background color in third section */
+#food {
+    background-color: #dcfce7;
+}
+
+/* Different heading sizes and weights */
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+/* Footer */
+footer {
+    background-color: #172554;
+    color: white;
+    padding: 15px;
+    margin-top: 10px;
+    text-align: center;
+}

@@ -1,0 +1,62 @@
+/* Basic styling and flexbox for footer at bottom */
+body {
+    margin: 0;
+    min-height: 100vh;              /* vh unit */
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f6ff;      /* Custom background color */
+    color: #222;                    /* Contrasting text color */
+}
+
+/* Header: fixed at the top */
+header {
+    position: fixed;               /* Fixed header */
+    top: 0;
+    width: 100%;                    /* % unit */
+    padding: 15px;                  /* px unit */
+    background-color: #172554;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Navigation links */
+nav a {
+    color: white;
+    margin: 1em;                    /* em unit */
+    text-decoration: none;
+}
+
+/* Main section */
+main {
+    flex: 1;
+    padding-top: 100px;
+    min-height: 70vh;               /* vh unit */
+    text-align: center;
+}
+
+/* Different font size using rem */
+h2 {
+    font-size: 2rem;                /* rem unit */
+}
+
+/* Bio paragraph */
+p {
+    font-size: 1em;                 /* em unit */
+    width: 80%;                     /* % unit */
+    margin: 20px auto;              /* px unit */
+}
+
+/* Profile image */
+img {
+    width: 200px;                   /* px unit */
+    height: 200px;
+}
+
+/* Footer stays at the bottom using flexbox */
+footer {
+    padding: 10px;
+    background-color: #172554;
+    color: white;
+    text-align: center;
+}

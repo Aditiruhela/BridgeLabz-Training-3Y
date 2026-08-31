@@ -1,0 +1,28 @@
+/* Flex: cards in one row */
+.team {
+    display: flex;
+    gap: 20px;
+}
+
+/* Box Model + Border + Rounded corners + Shadow */
+.card {
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px gray;
+    flex: 1;
+}
+
+/* Highlight Team Lead */
+.lead {
+    background-color: lightblue;
+    border: 3px dashed blue;
+}
+
+/* Responsive: single column below 600px */
+@media (max-width: 600px) {
+    .team {
+        flex-direction: column;
+    }
+}

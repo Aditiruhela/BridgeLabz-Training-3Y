@@ -1,0 +1,37 @@
+/* Flexbox: three equal columns + equal height */
+.plans {
+    display: flex;
+    align-items: stretch;
+    gap: 20px;
+}
+
+/* Plan box */
+.plan {
+    flex: 1;
+    padding: 20px;
+    border: 2px solid black;
+    text-align: center;
+
+    /* Smooth hover transition */
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.plan:hover {
+    transform: scale(1.05);
+    background-color: lightblue;
+}
+
+/* Styled link as button */
+.plan a {
+    display: inline-block;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+}
+
+/* Highlight most popular plan */
+.popular {
+    border: 3px solid red;
+}
