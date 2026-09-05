@@ -1,0 +1,24 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+header{
+    grid-column:span 2;
+}
+aside{
+    display:flex;
+    flex-direction:column;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.box1 {
+    grid-column: span 2;
+}
+.box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px gray;
+}

@@ -1,0 +1,21 @@
+body{
+    margin:0px;
+    padding:0px;
+    display:flex;
+    flex-direction: column;
+}
+nav{
+    display:flex;
+    justify-content:space-around;
+}
+main{
+    display:flex;
+    justify-content:space-around;
+    flex:1;
+}
+.box:hover{
+    transform: rotate(2deg);
+}
+footer{
+    width:100%;
+}

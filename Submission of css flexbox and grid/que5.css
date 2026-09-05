@@ -1,0 +1,29 @@
+.pricing{
+    display:flex;
+}
+.middle{
+    transform:scale(1.1);
+    background-color:lightblue;
+}
+.card{
+    transition:0.3s;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.card{
+    animation: fadeIn 1s;
+}
+@keyframes fadeIn{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+@media (max-width: 750px) {
+    .pricing {
+        flex-direction: column;
+    }
+}
