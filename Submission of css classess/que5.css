@@ -1,0 +1,50 @@
+.buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 3px 6px gray;
+}
+
+.primary {
+    background: blue;
+    color: white;
+    border: 1px solid blue;
+}
+
+.secondary {
+    background: gray;
+    color: white;
+    border: 1px solid gray;
+}
+
+.outline {
+    background: white;
+    color: blue;
+    border: 1px solid blue;
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+button:focus {
+    outline: 2px solid orange;
+}
+
+button:disabled {
+    background: lightgray;
+    color: gray;
+    cursor: not-allowed;
+    box-shadow: none;
+}

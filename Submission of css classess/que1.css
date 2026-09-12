@@ -1,0 +1,21 @@
+.examples {
+    display: flex;
+    gap: 30px;
+}
+
+a:hover {
+    color: red;
+}
+
+input:focus {
+    background-color: lightblue;
+}
+
+button:active {
+    background-color: green;
+    color: white;
+}
+
+li:nth-child(2) {
+    background-color: yellow;
+}

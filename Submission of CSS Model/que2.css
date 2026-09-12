@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: auto;
+}
+
+.box1 {
+    width: 200px;
+    height: 150px;
+    min-height: 100px;
+    background-color: lightblue;
+}
+
+.box2 {
+    width: 30%;
+    height: 25vh;
+    max-width: 350px;
+    background-color: lightgreen;
+}
+
+.box3 {
+    width: 15em;
+    height: 20vh;
+    min-height: 120px;
+    max-width: 300px;
+    overflow: hidden;
+    background-color: lightcoral;
+}

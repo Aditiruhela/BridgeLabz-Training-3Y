@@ -1,0 +1,47 @@
+/* Element selector */
+p {
+    margin: 10px;
+}
+
+/* Class selector */
+.highlight {
+    color: blue;
+}
+
+/* ID selector */
+#special {
+    color: red;
+}
+
+/* Attribute selector */
+a[href] {
+    text-decoration: none;
+}
+
+/* Child combinator (>) */
+div > span {
+    color: green;
+}
+
+/* Adjacent sibling combinator (+) */
+li + li {
+    background-color: lightgray;
+}
+
+/* General sibling combinator (~) */
+div p ~ span {
+    font-weight: bold;
+}
+
+/* Descendant combinator */
+div p {
+    padding: 5px;
+}
+
+body {
+    padding: 20px;
+}
+
+footer {
+    margin-top: 30px;
+}

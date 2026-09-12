@@ -1,0 +1,73 @@
+/* Element selector */
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+/* Class selector */
+.items {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* ID selector */
+#main-title {
+    text-align: center;
+}
+
+/* Attribute selector */
+input[type="text"] {
+    border: 2px solid blue;
+    padding: 8px;
+}
+
+/* Attribute selector for links starting with https */
+a[href^="https"] {
+    color: green;
+}
+
+/* Pseudo-class :hover */
+li:hover {
+    background-color: yellow;
+}
+
+/* Pseudo-class :focus */
+input:focus {
+    outline: 3px solid orange;
+}
+
+/* Pseudo-class :nth-child() */
+li:nth-child(2) {
+    color: red;
+    font-weight: bold;
+}
+
+/* Child combinator > */
+.items > li {
+    margin: 10px;
+}
+
+/* Adjacent sibling combinator + */
+h2 + ul {
+    border-left: 4px solid blue;
+}
+
+/* General sibling combinator ~ */
+h2 ~ p {
+    color: purple;
+}
+
+/* Descendant combinator */
+.items li {
+    padding: 5px;
+}
+
+/* Pseudo-element ::before */
+li::before {
+    content: "→ ";
+}
+
+/* Pseudo-element ::after */
+li::after {
+    content: " ✓";
+}
