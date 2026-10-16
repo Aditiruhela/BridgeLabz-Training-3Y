@@ -1,7 +1,0 @@
-.resume-row{
-    display: flex;
-    justify-content: space-between;
-}
-.resume-row span:last-child{
-    white-space: nowrap;
-}
