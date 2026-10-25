@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Form</title>
+    <style>
+        .error {
+            border: 2px solid red;
+        }
+
+        .valid {
+            border: 2px solid green;
+        }
+
+        span {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+<form id="studentForm">
+    <input type="text" id="name" placeholder="Name">
+    <span id="nameError"></span><br><br>
+
+    <input type="text" id="email" placeholder="Email">
+    <span id="emailError"></span><br><br>
+
+    <input type="text" id="phone" placeholder="Phone">
+    <span id="phoneError"></span><br><br>
+
+    <input type="password" id="password" placeholder="Password">
+    <span id="passwordError"></span><br><br>
+
+    <button type="submit">Submit</button>
+</form>
+
+<script src="que2.js"></script>
+</body>
+</html>
