@@ -1,0 +1,13 @@
+input {
+    display: block;
+    margin-top: 15px;
+    padding: 8px;
+}
+
+span {
+    color: red;
+}
+
+#success {
+    color: green;
+}

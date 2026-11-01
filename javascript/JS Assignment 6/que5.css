@@ -1,0 +1,23 @@
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    gap: 10px;
+}
+
+#gallery img {
+    width: 200px;
+    cursor: pointer;
+}
+
+#modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+#modal img {
+    width: 500px;
+}

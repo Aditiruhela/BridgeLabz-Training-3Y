@@ -1,0 +1,22 @@
+#dropdown {
+    width: 200px;
+}
+
+#dropdownButton {
+    width: 200px;
+    padding: 10px;
+}
+
+#options {
+    display: none;
+    border: 1px solid black;
+}
+
+#options div {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#options div:hover {
+    background: lightgray;
+}
