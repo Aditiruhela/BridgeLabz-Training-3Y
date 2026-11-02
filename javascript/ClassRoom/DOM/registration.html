@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Learning Input Value</h1>
+    <input type="text" id="name">
+    <button id="add">add</button>
+    <!-- <h1 id="head">..........</h1> -->
+    <ul id="head">
+        <li>Apple</li>
+        <li>mango</li>
+    </h1>
+    <style>
+        
+    </style>
+</body>
+<script>
+    let nameEl=document.querySelector("#name")
+    let headEl=document.querySelector("#head")
+    let addEl=document.querySelector("#add")
+    // addEl.addEventListener("click",()=>{
+    //     console.log(nameEl.value);
+    //     headEl.textContent=nameEl.value;
+    // })
+    //method 1 to add grocieries in list 
+    // addEl.addEventListener("click",()=>{
+    //     let item=nameEl.value;
+    //     headEl.innerHTML+=`<li>${item}</li>`;
+    // })
+    //method 2
+        addEl.addEventListener("click",()=>{
+        let item=nameEl.value.trim();
+        if(item==""){
+            alert("empty item cannot be add")
+            return;
+        }
+        let liEl=document.createElement("li");
+        liEl.textContent=item;
+        headEl.appendChild(liEl);
+        nameEL.value= ""
+    })
+</script>
+</html>
